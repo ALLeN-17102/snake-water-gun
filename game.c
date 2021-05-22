@@ -25,6 +25,7 @@ int snakeWaterGun(char you, char comp){
 
     if(you=='s' && comp=='g'){
         return -1;
+        
     }
     else if(you=='g' && comp=='s'){
         return 1;
